@@ -86,7 +86,7 @@ public class MetadataDatabasePlugin extends Plugin {
             this.processedRecord = false;
             this.restartTransaction = false;
             this.pluginError = null;
-            final var consumedJson = new JSONObject(record).getJSONObject("payload");
+            final var consumedJson = new JSONObject(record);
             final var artifact = consumedJson.optString("product") + "@"
                     + consumedJson.optString("version");
             ExtendedRevisionCallGraph callgraph;
