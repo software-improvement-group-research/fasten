@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/fasten-project/fasten.svg?branch=master)](https://travis-ci.org/fasten-project/fasten)
 ![Gitter](https://img.shields.io/gitter/room/fasten-project/fasten)
+[![BCH compliance](https://bettercodehub.com/edge/badge/software-improvement-group-research/fasten?branch=master)](https://bettercodehub.com/)
 
 ### Creating a workspace with IntelliJ
 
